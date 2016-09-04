@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="uiRouterApp2">
+<head>
+    <meta charset="UTF-8">
+    <title>ui-router-2</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="ui-router-ctrl2.js"></script>
+</head>
+<body>
+<nav class="navbar-collapse navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <div class="navbar-brand">Cinsin</div>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="about">About</a></li>
+    </ul>
+</nav>
+<div ui-view></div>
+</body>
+</html>

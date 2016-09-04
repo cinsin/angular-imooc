@@ -1,0 +1,47 @@
+{
+  "header": {
+    "navbar": {
+      "UPLOAD": "Upload",
+      "new": {
+        "NEW": "New",
+        "PROJECT": "Projects",
+        "TASK": "Task",
+        "USER": "User",
+        "EMAIL": "Email"
+      },
+      "NOTIFICATIONS": "Notifications"
+    }
+  },
+  "aside": {
+    "nav": {
+      "HEADER": "Navigation",
+      "DASHBOARD": "Dashboard",
+      "operations": {
+        "OPERATIONS": "Operations",
+        "consumers": {
+          "CONSUMERS": "Consumers",
+          "CONSUMERS_MANAGE": "Consumers Manage",
+          "CONSUMERS_TOURS": "Tours",
+          "CONSUMERS_BILLS": "Bills"
+        },
+        "merchants": {
+          "MERCHANTS": "Merchants",
+          "MERCHANT_MANAGE": "Merchant Manage",
+          "MERCHANT_TOURS": "Tours",
+          "MERCHANT_WITHDRAWS": "Withdraws"
+        },
+        "tours": {
+          "TOURS": "Tour",
+          "TOURS_MANAGE": "Tour Manage"
+        }
+      },
+      "your_stuff": {
+        "YOUR_STUFF": "Your Stuff",
+        "PROFILE": "Profile",
+        "DOCUMENTS": "Documents"
+      }
+    },
+    "COMPLAIN": "Complain",
+    "WITHDRAW": "Withdraw"
+  }
+}

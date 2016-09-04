@@ -1,0 +1,47 @@
+{
+  "header": {
+    "navbar": {
+      "UPLOAD": "上传",
+      "new": {
+        "NEW": "New",
+        "PROJECT": "Projects",
+        "TASK": "Task",
+        "USER": "User",
+        "EMAIL": "Email"
+      },
+      "NOTIFICATIONS": "Notifications"
+    }
+  },
+  "aside": {
+    "nav": {
+      "HEADER": "导航",
+      "DASHBOARD": "首页",
+      "operations": {
+        "OPERATIONS": "运营管理",
+        "consumers": {
+          "CONSUMERS": "用户",
+          "CONSUMERS_MANAGE": "用户管理",
+          "CONSUMERS_TOURS": "用户路线",
+          "CONSUMERS_BILLS": "用户订单"
+        },
+        "merchants": {
+          "MERCHANTS": "商家",
+          "MERCHANT_MANAGE": "商家管理",
+          "MERCHANT_TOURS": "商家路线",
+          "MERCHANT_WITHDRAWS": "商家提现"
+        },
+        "tours": {
+          "TOURS": "路线",
+          "TOURS_MANAGE": "路线管理"
+        }
+      },
+      "your_stuff": {
+        "YOUR_STUFF": "温馨提示",
+        "PROFILE": "账号管理",
+        "DOCUMENTS": "操作指南"
+      }
+    },
+    "COMPLAIN": "处理投诉",
+    "WITHDRAW": "处理提现"
+  }
+}

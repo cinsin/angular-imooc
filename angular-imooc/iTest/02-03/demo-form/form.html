@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyFormModule">
+<head>
+    <meta charset="UTF-8">
+    <title>demo-form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="myForm.js"></script>
+</head>
+<body>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <div class="panel-title">two way data binding</div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-horizontal" role="form" ng-controller="UserInfoCtrl">
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" ng-model="userInfo.email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">password</label>
+                        <div class="col-md-10">
+                            <input type="password" class="from-control" ng-model="userInfo.password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="userInfo.autoLogin">auto login
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button class="btn btn-default" ng-click="getFormData()">get form data</button>
+                            <button class="btn btn-default" ng-click="setFormData()">set form data</button>
+                            <button class="btn btn-default" ng-click="resetForm()">reset form</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

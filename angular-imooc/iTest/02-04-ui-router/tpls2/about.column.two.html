@@ -1,0 +1,20 @@
+<div class="row text-primary">
+    {{goods.titleMsg}}
+</div>
+<ul ng-repeat="item in iceCream">
+    <li>{{item.flavour}}, {{item.price}}</li>
+</ul>
+<table class="table table-hover table-striped table-bordered">
+    <thead class="text-primary">
+        <tr>
+            <th>Flavour</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in iceCream">
+            <td>{{item.flavour}}</td>
+            <td>{{item.price}}</td>
+        </tr>
+    </tbody>
+</table>

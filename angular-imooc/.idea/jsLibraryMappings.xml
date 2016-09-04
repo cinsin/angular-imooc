@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/01-02-01/angular-phonecat" libraries="{angular-imooc/01-02-01/angular-phonecat/node_modules}" />
+    <file url="file://$PROJECT_DIR$/01-02-02/grunt" libraries="{angular-imooc/01-02-02/grunt/node_modules}" />
+    <file url="file://$PROJECT_DIR$/01-02-02/karma/karma" libraries="{angular-imooc/01-02-02/karma/karma/node_modules}" />
+    <file url="file://$PROJECT_DIR$/02-02-路由、模块、依赖注入源代码-BookStore" libraries="{angular-imooc/02-02-路由、模块、依赖注入源代码-BookStore/node_modules}" />
+    <file url="file://$PROJECT_DIR$/02-07-综合应用BookStore源代码/BookStore" libraries="{angular-imooc/02-07-综合应用BookStore源代码/BookStore/node_modules}" />
+    <file url="file://$PROJECT_DIR$/05/angular-phonecat" libraries="{angular-imooc/05/angular-phonecat/node_modules}" />
+    <file url="file://$PROJECT_DIR$/iTest/02-03" libraries="{angular-imooc/iTest/02-03/node_modules}" />
+    <file url="file://$PROJECT_DIR$/iTest/02-04-ui-router" libraries="{angular-imooc/iTest/02-04-ui-router/node_modules}" />
+    <file url="file://$PROJECT_DIR$/tools" libraries="{angular-imooc/tools/node_modules}" />
+  </component>
+</project>

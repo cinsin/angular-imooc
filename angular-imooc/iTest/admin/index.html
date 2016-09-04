@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="utf-8"/>
+    <title>畅游美国</title>
+    <meta name="description"
+          content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" type="text/css"/>
+    <!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />-->
+    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font.css" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+</head>
+<body ng-controller="AppController">
+<div class="app" id="app"
+     ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded}"
+     ui-view></div>
+<!-- jQuery -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<!-- Angular -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-translate/angular-translate.min.js"></script>
+<script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+<script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js"></script>
+<script src="bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js"></script>
+<script src="bower_components/ngstorage/ngStorage.min.js"></script>
+<script src="bower_components/angular-ui-load/ui-load.js"></script>
+<script src="bower_components/angular-ui-jq/ui-jq.js"></script>
+<script src="bower_components/angular-ui-validate/dist/validate.js"></script>
+<!--<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>-->
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<!-- App -->
+<script src="app/app.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/configurations/constant.config.js"></script>
+<script src="app/configurations/lang.config.js"></script>
+<script src="app/app.controller.js"></script>
+<script src="app/app.routes.js"></script>
+<script src="app/dashboard/dashboard.routes.js"></script>
+<script src="app/auth/auth.service.js"></script>
+<script src="app/auth/auth.routes.js"></script>
+<script src="app/auth/signin.controller.js"></script>
+<script src="app/auth/signin.service.js"></script>
+
+
+<script src="app/consumers/consumers.routes.js"></script>
+<script src="app/merchants/merchants.routes.js"></script>
+<script src="app/tours/tours.routes.js"></script>
+
+
+<script src="app/components/set-ng-animate.directive.js"></script>
+<script src="app/components/ui-butterbar.directive.js"></script>
+<script src="app/components/ui-fullscreen.directive.js"></script>
+<script src="app/components/ui-module.directive.js"></script>
+<script src="app/components/ui-nav.directive.js"></script>
+<script src="app/components/ui-scroll.directive.js"></script>
+<script src="app/components/ui-shift.directive.js"></script>
+<script src="app/components/ui-toggle-class.directive.js"></script>
+
+
+
+
+
+<script src="app/demos/demos.js"></script>
+
+<!-- Lazy loading -->
+
+<script src="app/configurations/jquery.config.js"></script>
+<script src="app/configurations/constant.config.js"></script>
+</body>
+</html>
