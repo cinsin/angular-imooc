@@ -1,0 +1,32 @@
+<h2>Add User</h2>
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <label class="col-md-2 control-label">Email:</label>
+        <div class="col-md-10">
+            <input type="email" class="form-control" placeholder="126 is recommended">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Password:</label>
+        <div class="col-md-10">
+            <input type="password" class="form-control" placeholder="Use at least one letter, one numeral, and seven characters.">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">Auto Login</label>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-5 col-md-2">
+            <button class="btn btn-primary">Login</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" ng-click="backToPrevious()">Return</button>
+        </div>
+    </div>
+</form>

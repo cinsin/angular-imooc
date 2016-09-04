@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Directive & Controller</title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="Directive&Controller.js"></script>
+</head>
+<body>
+    <div ng-controller="MyCtrl">
+        <div class="row">
+            <div class="col-md-12">
+                <loader class="text-primary" howToLoad="loadFromNBI()">Load from NBI</loader>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <loader class="text-danger" howToLoad="loadFromDB()">Load from DB</loader>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
