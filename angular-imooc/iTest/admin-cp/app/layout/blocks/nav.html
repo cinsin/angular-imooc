@@ -1,0 +1,61 @@
+<!-- first -->
+<ul class="nav">
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+    <span>Operations</span>
+  </li>
+  <li ng-class="{active:$state.includes('app.consumers')}">
+    <a href class="auto">      
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+      <b class="badge bg-info pull-right">3</b>
+      <i class="glyphicon glyphicon-th"></i>
+      <span>用户</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li ui-sref-active="active">
+        <a ui-sref="app.consumers.manage">
+          <span>用户管理</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.consumers.bills">
+          <span>用户订单</span>
+        </a>
+      </li>      
+    </ul>
+  </li>
+  <li ng-class="{active:$state.includes('app.merchants')}">
+    <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+
+      <b class="badge bg-success pull-right">6</b>
+      <i class="glyphicon glyphicon-briefcase icon"></i>
+      <span translate=>商家</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+        <a href>
+          <span>商家</span>
+        </a>
+      </li>
+
+      <li ui-sref-active="active">
+        <a ui-sref="app.merchants.manage">
+          <span>商家管理</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.merchants.withdraws">
+          <span>商家提现</span>
+        </a>
+      </li>
+
+    </ul>
+  </li>
+</ul>
+<!-- / third -->
